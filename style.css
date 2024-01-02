@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* Estilos HEADER */
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.classTitle{
+    top: 8vh;
+    color: black;
+    font-weight: bold;
+    font-size: 3vw;
+    position: absolute;
+}
+
+
+/* Estilso main */
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classContenedor{
+    width: 40%;
+    min-width: 800px;
+    min-height: 20vh;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.texto{
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+.clasBtns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.btn{
+    width: 15%;
+    height: 50px;
+    margin-right: 5%;
+}
